@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.line {
+    width: 150px;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+img {
+    width: 300px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#Apps {
+    width: 100%;
+    height: 800px;
+    background-image: url("download.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#games {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+
+#chat {
+    background: linear-gradient(#39A0ED 0%, #36F1CD 100%);
+}
+
+#slides {
+    background-color: coral;
+}
+
+#slides img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+#slides p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
